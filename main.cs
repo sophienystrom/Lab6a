@@ -25,8 +25,9 @@ class MainClass {
   Console.WriteLine (items); //display reverse list
   }
 
-  double average = farenheight.Average(); // CAN ONLY DO THIS WITH SYSTEM.LINQ!!!!
-  Console.WriteLine("The average weekly temperature is " + average + " degrees farenheight");
+  double sum = farenheight.Sum(); // CAN ONLY DO THIS WITH SYSTEM.LINQ!!!!
+  double average = sum/7;
+  Console.WriteLine("The average weekly temperature is " + average + " degrees farenheight"); 
  
    }
  
