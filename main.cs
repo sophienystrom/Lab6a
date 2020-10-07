@@ -16,13 +16,13 @@ class MainClass {
   }
 
  
-  Array.Reverse(farenheight); //reverses order of farenheight array values
+  Array.Reverse(farenheight); //reverses order of farenheight array values. if you do array.sort it sorts it greatest to least 
 
   Console.WriteLine("Temperatures in Farenheight"); // outside of loop so it does not repeat. 
 
-  foreach (double items in farenheight) // (variable type, items, in what arrar?)
+  foreach (double items in farenheight) // (variable type, items, in what Array?)
   {
-  Console.WriteLine (items);
+  Console.WriteLine (items); //display reverse list
   }
 
   double average = farenheight.Average(); // CAN ONLY DO THIS WITH SYSTEM.LINQ!!!!
