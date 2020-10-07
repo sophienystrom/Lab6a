@@ -18,14 +18,14 @@ class MainClass {
  
   Array.Reverse(farenheight); //reverses order of farenheight array values
 
-  Console.WriteLine("Temperatures in Farenheight");
+  Console.WriteLine("Temperatures in Farenheight"); // outside of loop so it does not repeat. 
 
   foreach (double items in farenheight) // (variable type, items, in what arrar?)
   {
   Console.WriteLine (items);
   }
 
-  double average = farenheight.Average();
+  double average = farenheight.Average(); // CAN ONLY DO THIS WITH SYSTEM.LINQ!!!!
   Console.WriteLine("The average weekly temperature is " + average + " degrees farenheight");
  
    }
